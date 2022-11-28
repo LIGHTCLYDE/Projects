@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  border-radius: 20px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+body {
+  background: url(../src/image/bannerHome.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navegação {
+  color: #fff;
+  padding: 1.3%;
+}
+
+.navegação h3 {
+  background-color: black;
+  color: #EEEDF0;
+  position: absolute;
+  display: flex;
+  text-decoration: none;
+  width: 7%;
+  height: 26%;
+  left: 10%;
+  top: 5%;
+  font-size: 24px;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 2%;
+  height: 3.4%;
+  left: 64%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 91.9px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+.list {
+  margin: 15px;
+  padding-bottom: 100px;
+  list-style: none;
+}
+
+.list a {
+  color: #EEEDF0;
+  display: block;
+  position: relative;
+  padding: 10px;
+  width: 100px;
+  height: 16.7px;
+  background-color:#6533c9;
+  border-radius: 25px;
+  text-align: center;
+  border: none;
+}
+
+
+.list a:hover {
+  background-color: #4e269c;
+  transition: ease-in-out  0.4s;
+}
+
+.list a:hover {
+  transition: ease-in-out 0.s;
+  border: 2px solid #7853c2;
+}
+
+.sobre {
+  margin: 40px;
+  margin-bottom: 1px;
+}
+
+.sobre .title {
+  color: #EEEDF0;
+  font-size: 53px;
+  margin-right: 89%;
+  margin-top: 300px;
+}
+
+.sobre .text {
+  color: #DCDCDC;
+  margin-right: 43%;
+  font-size: 22px;
+}
+
+
+button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background-color: #5ac240;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 40px;
+  margin-left: 22px;
+  border-radius: 19px;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: ease-in-out 0.4s;
+  background-color: #3c9626;
+}
+
+.computer {
+  margin-left: 70%;
+  position: relative;
+  bottom: 300px;
+}
+
+.plan-content {
+  width: 70%;
+  max-width: 360pxpx;
+  padding: 20px 30px 30px 25px;
+  margin: 30px auto 0 auto;
+  border-radius: 10px;
+  background: #ecececbf;
+  border: 2px solid #6a6a6a;
+  position: relative;
+  margin-top: 40%;
+  bottom: 260px;
+}
+
+.plan-content {
+  width: 100%;
+  max-width: 360px;
+  padding: 20px 30px 30px 25px;
+  margin: 30px auto 0 auto;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-left: 60%;
+  margin-bottom: 10%;
+  
+}
+
+.plan-title {
+  text-align: center;
+  border-bottom: 2px solid #6a6a6a;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #212122;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.plan-title {
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.plan-list {
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+
+.plan-list li {
+  padding: 2px;
+}
+
+
+.button-container a {
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: #6533c9;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.button-container a:hover {
+  transition: ease-in-out 0.4s;
+  background: #4e269c;
+}
+
+.subscription-left {
+  background-color: rgba(243, 243, 243, 0.048);
+  margin-right: 58%;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+
+.subscription-left:hover {
+  transition: ease-in-out 0.4s;
+  background-color: rgba(243, 243, 243, 0.26);
+  box-shadow: 3px 10px rgba(0, 0, 0, 0.63);
+}
+.subscription-title {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 13%;
+}
+
+.subscription-description {
+  font-size: 30px;
+  color: #000000e3;
+  margin-left: 13%;
+}
+
+.fim {
+  background-color: #818181;
+  padding: 20px;
+  align-items: center;
+}
+
+.fim:hover {
+  background-color: #5e5e5ecb;
+  transition: ease-in-out 0.4s;
+}
+
+.termos-politica {
+  margin-left: 28%;
+  font-size: 12px;
+}
+
+.termos-politica p {
+  padding: 3px;
+}
