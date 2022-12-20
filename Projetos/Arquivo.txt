@@ -1,0 +1,33 @@
+vbhzduqegsrhutpz
+
+TOKEN DE SEGURANÇA SMTP
+
+716b0632-bae7-49e5-97bd-d2cdc5d4e862
+
+
+Host : "smtp.elasticemail.com",
+        Username : "volpitattoo@gmail.com",
+        Password : "Volpi010203",
+
+0BAF5632C91D6CA133E9A245D3A1C3607F31
+
+smtp.elasticemail.com
+
+
+
+
+function sendEmail() {
+    Email.send({
+        SecureToken : 'ae46857b-b983-4748-8374-dfbf683b9672',
+        To : 'volpitattoo@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "Novo E-mail de contato recebido",
+        Body : "Name: " + document.getElementById("name").value
+            + "<br> Email: " + document.getElementById("email").value
+            + "<br> Telefone: " + document.getElementById("phone").value
+            + "<br> Mensagem: " + document.getElementById("message").value
+            
+    }).then(
+      message => alert("E-mail Enviado Com Sucesso")
+    );
+}
