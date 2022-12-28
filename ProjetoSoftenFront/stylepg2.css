@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Watermelon';
+    src: url('./WatermelonDays.ttf');
+}
+
+body {
+    height: 100vh;
+    background-image: url('../images/form_background.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.initial {
+    background-color: #4caf50;
+    color: #FFFFFF;
+    box-shadow: 2px 3px 8px rgb(0 0 0 / 60%);
+    transition: ease-in-out 0.2s;
+    border-radius: 20px;
+    position: absolute;
+    padding: 4.7px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+}
+
+.initial:hover {
+    background-color: #3d8b40;
+    color: #FFFFFF;
+}
+
+
+h3 {
+    color: white;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    margin-left: -100px;
+}
